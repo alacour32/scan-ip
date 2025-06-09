@@ -1,6 +1,4 @@
-# scan-ip
-scrip para escanear redes
-Network Scanner Tool 🔍
+🔍 Network Scanner Tool 
 A lightweight Bash script to scan local networks, discover active hosts, and resolve their hostnames.
 
 📌 Overview
