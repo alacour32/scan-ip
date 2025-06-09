@@ -1,4 +1,4 @@
-🔍 ### Network Scanner Tool 
+🔍 Network Scanner Tool 
 
 A lightweight Bash script to scan local networks, discover active hosts, and resolve their hostnames.
 
@@ -59,7 +59,8 @@ git clone https://github.com/your-repo/network-scanner.git
 cd network-scanner
 chmod +x netscan.sh
 ./netscan.sh 192.168.1.0/24
-⚠️ ###Notes
+
+⚠️ Notes
 
 Requires Bash 4+ and standard Linux tools (ping, nslookup).
 
@@ -68,6 +69,7 @@ Run with sudo if DNS resolution fails (depends on network config).
 For large subnets (/16+), consider using nmap for better performance.
 
 🛠 Future Improvements
+
 Add OS detection (via nmap -O)
 
 Export results to CSV/JSON
